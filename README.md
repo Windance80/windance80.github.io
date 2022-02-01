@@ -1,1 +1,1 @@
-# windance80.github.io
+# Code snippet from around the web
