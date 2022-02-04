@@ -1,61 +1,60 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Useful Code Snippet</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <header>
-      <h1>Useful Code Snippet</h1>
-
-      <nav>
-        <button class="git btn-nav">Git</button>
-        <button class="html btn-nav">Html</button>
-      </nav>
+        <h1>Useful Code Snippet</h1>
     </header>
 
     <!-- git -->
-    <h2>Git</h2>
-    <h3>Fix tracked files from .gitignore</h3>
-    <ul>
-      <li>Commit all changes</li>
-      <li>
-        Untracked everything from repo:&ThickSpace;
-        <code>git rm -r --cached .</code>
-        &ThickSpace;add&ThickSpace;
-        <code>-n</code
-        >&ThickSpace;or&ThickSpace;
-        <code>--dry-run</code
-        >&ThickSpace;to test.
-      </li>
-      <li>Re add everythin&ThickSpace;<code>git add .</code></li>
-      <li>Commit&ThickSpace;<code>git commit -m ".gitignore fix"</code></li>
-    </ul>
+    <div id="git-content-page">        
+        <h3>Fix tracked files from .gitignore</h3>
+        <ul>
+            <li>Commit all changes</li>
+            <li>
+                Untracked everything from repo:&ThickSpace;
+                <code>git rm -r --cached .</code>
+                &ThickSpace;add&ThickSpace;
+                <code>-n</code>&ThickSpace;or&ThickSpace;
+                <code>--dry-run</code>&ThickSpace;to test.
+            </li>
+            <li>Re add everythin&ThickSpace;<code>git add .</code></li>
+            <li>Commit&ThickSpace;<code>git commit -m ".gitignore fix"</code></li>
+        </ul>
+    </div>
 
     <!-- html -->
-    <h2>Html</h2>
-    <h3>Box Sizing</h3>
-    <ul>
-      <li>
-        <code> * { box-sizing: border-box; } </code>
+    <div id="html-content-page" style="display: none;">        
+        <h3>Box Sizing</h3>
+        <ul>
+            <li>
+                <code> * { box-sizing: border-box; } </code>
 
-        <p>include padding and margin for true size of an element.</p>
-      </li>
-    </ul>
+                <p>include padding and margin for true size of an element.</p>
+            </li>
+        </ul>
 
-    <h3>Reset margin padding</h3>
-    <ul>
-      <li>
-        <code> 
+        <h3>Reset margin padding</h3>
+        <ul>
+            <li>
+                <code>
           * { 
             margin: 0px;
             padding: 0px;
           } 
         </code>
-      </li>      
-    </ul>
-  </body>
+            </li>
+        </ul>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
 </html>
