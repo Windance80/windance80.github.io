@@ -53,23 +53,25 @@ header {
   border-top: none;
   border-left: none;
   border-right: none;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .btn-nav {  
   font-size: 1rem;
   font-weight: bold;
   background-color: white;
-  width: 64px;
-  border: 0px;
-  margin: 5px 5px;
+  min-width: 128px;
+  border-style: solid;
+  margin: 5px 5px 5px 0px;  
 }
+
+    .btn-nav.git {
+        background-color: lightblue;
+    }
 
 button:hover {
   background-color: lightblue;
 }
-
-
 
 @media screen and (max-width: 600px) {
   html {
