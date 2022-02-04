@@ -1,24 +1,25 @@
+@media screen and (min-width: 900px) {
+  body {
+    width: 900px;
+  }
+}
+
 * {
+  margin: 0px;
   box-sizing: border-box;
 }
 
-html {
-  font-size: 16px;
-  height: 100%;
+html {  
+  font-size: 16px;     
+  background-color: lightgray;  
 }
 
 body {
-  text-align: center;
-  background-color: lightgray;
-  margin: 0px;
-  padding: 0px;
+  background-color: white; 
+  margin: 0px auto 0px auto;  
+  padding: 0px 5px;  
+  min-height: 100vh;
 }
-/* 
-.page {
-  text-align: left;
-  background-color: lightgray;
-  margin: 0px auto 0px auto;
-} */
 
 h1 {
   font-size: 2rem;
@@ -28,27 +29,51 @@ h1 {
 
 h2 {
   font-size: 1.75rem;
+  border-style: solid;
+  border-top: none;
+  border-left: none;  
+  border-right: none;
 }
 
 h3 {
   font-size: 1.5rem;
 }
 
+ul {
+  margin-bottom: 15px;
+}
+
 li {
   font-size: 1.25rem;
 }
 
-nav {
+/* nav {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+} */
+
+header {
+  border: 1px solid blue;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 20px;
 }
 
-button {
-  flex: 1;
+.btn-nav {  
   font-size: 1rem;
-  margin: auto 10px;
+  font-weight: bold;
+  background-color: white;
+  width: 64px;
+  border: 0px;
+  margin: 5px 5px;
 }
+
+button:hover {
+  background-color: lightblue;
+}
+
+
 
 @media screen and (max-width: 600px) {
   html {
