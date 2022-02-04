@@ -1,23 +1,48 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Useful Code Snippet</title>
+  </head>
 
-<head>
-    <meta charset="utf-8">
-    <title>How To Code</title>
-</head>
+  <body>
+    <!-- <div class="page"> -->
+      <header>
+        <h1>Useful Code Snippet</h1>
 
-<body>
-    <h2>Git</h2>
-    <h3>Fix tracked files from .gitignore</h3>
-    <ol>
+        <nav>
+          <button>Git</button>
+          <button>Html</button>
+        </nav>
+
+        <hr />
+      </header>
+
+      <!-- git -->
+      <h3>Fix tracked files from .gitignore</h3>
+      <ol>
         <li>Commit all changes</li>
-        <li>Untracked everything from repo:&ThickSpace;<code>git rm -r --cached .</code></li>
+        <li>
+          Untracked everything from repo:&ThickSpace;<code
+            >git rm -r --cached .</code
+          >
+        </li>
         <ul>
-            add&ThickSpace;<code>-n</code>&ThickSpace;or&ThickSpace;<code>--dry-run</code>&ThickSpace;to test.
+          add&ThickSpace;<code>-n</code>&ThickSpace;or&ThickSpace;<code>--dry-run</code>&ThickSpace;to
+          test.
         </ul>
         <li>Re add everythin&ThickSpace;<code>git add .</code></li>
         <li>Commit&ThickSpace;<code>git commit -m ".gitignore fix"</code></li>
-    </ol>
-</body>
+      </ol>
 
+      <!-- html -->
+      <h3>Box Sizing</h3>
+
+      <code> * { box-sizing: border-box; } </code>
+
+      <p>include padding and margin for true size of an element.</p>
+    <!-- </div> -->
+  </body>
 </html>
