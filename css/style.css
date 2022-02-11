@@ -71,10 +71,16 @@ header {
 
 button:hover {
   background-color: lightblue;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {
-  html {
-    width: 600px;
+  html {    
+    font-size: 14px;    
+  }
+ 
+  nav {
+      display: flex;
+      flex-direction: column;
   }
 }
