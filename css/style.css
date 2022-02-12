@@ -24,7 +24,7 @@ body {
 h1 {
   font-size: 2rem;
   text-align: center;
-  color: #000000;
+  color: #000000;  
 }
 
 h2 {
@@ -33,6 +33,7 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
+  padding-bottom: 1rem;
 }
 
 ul {
@@ -74,6 +75,35 @@ button:hover {
   cursor: pointer;
 }
 
+table, th, td {
+    font-family: monospace;
+    border: 1px solid;
+}
+
+th, td {
+    padding: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    font-size: 1.5rem;
+}
+
+td {
+    font-size: 1.35rem;
+    text-align: center;
+}
+
+.bootstrap-table-size {
+    list-style: none;     
+    overflow: auto;    
+    padding: 0px 1rem;
+}
+
 @media screen and (max-width: 600px) {
   html {    
     font-size: 14px;    
@@ -82,5 +112,9 @@ button:hover {
   nav {
       display: flex;
       flex-direction: column;
+  }
+
+  .bootstrap-table-size {
+      padding: 0px;
   }
 }

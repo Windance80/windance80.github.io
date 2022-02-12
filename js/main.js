@@ -36,6 +36,12 @@ function gitClick() {
 
     const btnHtml = document.getElementsByClassName("btn-nav html")
     btnHtml[0].style.backgroundColor = 'white';
+    
+    const bootstrapPage = document.getElementById('bootstrap-content-page');
+    bootstrapPage.style.display = 'none';       
+
+    const btnBootstrap = document.getElementsByClassName("btn-nav bootstrap")
+    btnBootstrap[0].style.backgroundColor = 'white';        
 }
 
 // show html page
@@ -51,9 +57,31 @@ function htmlClick() {
 
     const btnHtml = document.getElementsByClassName("btn-nav html")
     btnHtml[0].style.backgroundColor = 'lightblue';
+
+    const bootstrapPage = document.getElementById('bootstrap-content-page');
+    bootstrapPage.style.display = 'none';       
+
+    const btnBootstrap = document.getElementsByClassName("btn-nav bootstrap")
+    btnBootstrap[0].style.backgroundColor = 'white';        
 }
 
 // show bootstrao page
 function bootstrapClick() {
-    
+    const gitPage = document.getElementById('git-content-page');
+    gitPage.style.display = 'none';    
+
+    const btnGit = document.getElementsByClassName("btn-nav git")
+    btnGit[0].style.backgroundColor = 'white';
+
+    const htmlPage = document.getElementById('html-content-page');
+    htmlPage.style.display = 'none';    
+
+    const btnHtml = document.getElementsByClassName("btn-nav html")
+    btnHtml[0].style.backgroundColor = 'white';
+
+    const bootstrapPage = document.getElementById('bootstrap-content-page');
+    bootstrapPage.style.display = 'block';       
+
+    const btnBootstrap = document.getElementsByClassName("btn-nav bootstrap")
+    btnBootstrap[0].style.backgroundColor = 'lightblue';           
 }
