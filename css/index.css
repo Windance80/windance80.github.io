@@ -1,11 +1,7 @@
-@media screen and (min-width: 900px) {
-  body {
-    width: 900px;
-  }
-}
 
 * {
   margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
@@ -42,6 +38,7 @@ ul {
 
 li {
   font-size: 1.25rem;
+  margin-left: 15px;
 }
 
 /* nav {
@@ -65,10 +62,6 @@ header {
   border-style: solid;
   margin: 5px 5px 5px 0px;  
 }
-
-    .btn-nav.git {
-        background-color: lightblue;
-    }
 
 button:hover {
   background-color: lightblue;
@@ -104,6 +97,11 @@ td {
     padding: 0px 1rem;
 }
 
+.header-image {
+    display: flex;
+    justify-content: center;
+}
+
 @media screen and (max-width: 600px) {
   html {    
     font-size: 14px;    
@@ -118,3 +116,10 @@ td {
       padding: 0px;
   }
 }
+
+@media screen and (min-width: 900px) {
+    body {
+      width: 900px;
+    }
+  }
+  
