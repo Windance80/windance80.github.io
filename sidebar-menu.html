@@ -6,12 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sidebar Menu</title>
     <link rel="stylesheet" href="css/sidebar-menu.css" />
-    <link rel="stylesheet" href="css/sidebar-menu.css" />
+    <link rel="icon" href="img/combat-plane.ico" type="image/x-icon" />
 </head>
 
 <body>    
+    <input type="checkbox" id="check">
+
     <!--header area start-->
     <header>
+        <label for="check">
+            <div alt="hamburger menu" class="menu-icon" id="sidebar-btn"></div>
+        </label>
+
         <div class="left-area">
             <h3>Coding <span>Bat-U-Raja</span></h3>
         </div>
@@ -26,10 +32,10 @@
     <div class="sidebar">
         <center>
             <img src="img/ships-example.PNG" class="profile-image" alt="Profile Image">
-            <h4>Kent</h4>
+            <h4>Kent</h4>                        
         </center>
 
-        <a href="#"><img src="img/combat-plane.ico" alt="dashboard icon"><span>Dashboard</span></a>
+        <a href="#" ><img src="img/combat-plane.ico" alt="dashboard icon" ><span >Dashboard</span></a>
         <a href="#"><img src="img/combat-plane.ico" alt="dashboard icon"><span>Components</span></a>
         <a href="#"><img src="img/combat-plane.ico" alt="dashboard icon"><span>Tables</span></a>
         <a href="#"><img src="img/combat-plane.ico" alt="dashboard icon"><span>Forms</span></a>
@@ -37,6 +43,10 @@
         <a href="#"><img src="img/combat-plane.ico" alt="dashboard icon"><span>Settings</span></a>
     </div>
     <!--sidebar end-->
+
+    <div class="content border-show">
+
+    </div>    
 </body>
 
 </html>
