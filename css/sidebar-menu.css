@@ -105,14 +105,18 @@ label #sidebar-btn {
   left: 300px;
   cursor: pointer;
   background-image: url("../img/hamburger-black.png");
-  height: 32px;
-  width: 32px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
   transition: 0.2s;
   transition-property: background-image;
 }
 
 label #sidebar-btn:hover {
-  background-image: url("../img/hamburger-white.png");
+
+    background-color: #df380e;
+  /* background-image: url("../img/hamburger-white.png"); */
 }
 
 #check:checked ~ .sidebar {
