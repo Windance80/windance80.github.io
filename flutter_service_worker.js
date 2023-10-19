@@ -4,6 +4,7 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
 const RESOURCES = {"1788-09-cleanroom_ultrasonic_humidifier_manual.pdf": "1fa70786ae1986c6a92cc156a7e9c18e",
+"404.html": "4d2fd6e28fed321501ac46172850da12",
 "assets/AssetManifest.bin": "a518950e3f41734aed269593ac85ca98",
 "assets/AssetManifest.json": "3aea08f84fa0c9f529281821776d19d2",
 "assets/assets/images/11-scaled-e1671069235416-1200x900.jpeg": "62d42bf9575eca31a31f958258aa9c75",
@@ -105,8 +106,9 @@ const RESOURCES = {"1788-09-cleanroom_ultrasonic_humidifier_manual.pdf": "1fa707
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "a6ca4b2b70569f78fd2ba76d6f11e31c",
-"/": "a6ca4b2b70569f78fd2ba76d6f11e31c",
+"icons/my_logo.png": "760cb24888b8a8e5cabcbbc9c314ee02",
+"index.html": "cfacd98f7ba0e83f604b487abcdd7b08",
+"/": "cfacd98f7ba0e83f604b487abcdd7b08",
 "main.dart.js": "ed42b48ae5887116661e55918fed1017",
 "manifest.json": "d7abe1f6c8d88cf85194f27c0e17ffad",
 "owners-manual-valuline-cleanroom-air-conditioning-unit-hvac.pdf": "87ee902565c4837b35dfed1c5dccbd9b",
