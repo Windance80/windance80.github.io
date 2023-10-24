@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>reCAPTCHA</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer> 
+</script>
+  </head>
+  <!-- <body style='background-color: aqua;'> -->
+  <body'>
+    <!-- <div style='height: 60px;'></div> -->
+    <form action="?" method="POST">
+      <div class="g-recaptcha" 
+        data-sitekey="6LfT6LkoAAAAALfpMNH2HVYq3zio9WSFulZjOcMY"
+        data-callback="captchaCallback"></div>
+
+    </form>
+    <script>
+      function captchaCallback(responseFromServer){
+        //console.log(response);
+        // alert(response);
+        // if(typeof Captcha!=="undefined"){
+        //   Captcha.postMessage(response);
+        // }
+        // window.parent.postMessage(response);
+
+        fetch("https://www.google.com/recaptcha/api/siteverify", {
+          mode: "no-cors",
+          method: "POST",
+          body: JSON.stringify({
+            secret: "6LfT6LkoAAAAACNMFWrWKDT99ZFrhr_CLnjB1jad",
+            response: responseFromServer,
+          }),
+          headers: {
+            "Access-Control-Allow-Origin": "*",
+          },
+        })
+        .then((response) => console.log(response));
+        // .then((response) => window.parent.postMessage(response.json()));
+      }
+    </script>
+  </body>
+</html>
